@@ -98,15 +98,17 @@ header{
 }
 .EmailInput{
     width: 70%;
+    min-width: 300px;
     font-size: 20px;
    height: 3rem;
     background-color: #052D56;
     border: none;
     border-radius: 2px;
-}
-
-.EmailSubmitbutton{
+  }
+  
+  .EmailSubmitbutton{
     width: 30%;
+    min-width: 200px;
     font-size: 20px;
     font-weight: 500;
     height: 3rem;
@@ -115,7 +117,8 @@ header{
     background-color: #ff4820;
     color: white;
     border-radius: 2px;
-}
+  }
+  
 
 .EmailInput[type="email"]::placeholder{
     text-align: center;
